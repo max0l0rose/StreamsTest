@@ -30,7 +30,13 @@ public class User extends BaseEntity implements StringsArray {
 
 
 	public String[] toStringsArray() {
-		return new String[] {String.valueOf(id), String.valueOf(username), String.valueOf(department), String.valueOf(created), String.valueOf(modified)};
+		return new String[] {
+				String.valueOf(id),
+				String.valueOf(username),
+				String.valueOf(department),
+				String.valueOf(created),
+				String.valueOf(modified)
+		};
 	}
 
 

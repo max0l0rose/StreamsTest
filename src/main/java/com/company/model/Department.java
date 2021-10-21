@@ -29,11 +29,11 @@ public class Department extends BaseEntity
 	@NotNull
 	String depName;
 
+
 	@Override
 	public String toString() {
-		return "Department{" +
-				       "id=" + id +
-				       ", created=" + created +
+		return depName + "{"
+				       + id +
 				       ", modified=" + modified +
 				       '}';
 	}
